@@ -1,0 +1,97 @@
+<!--lista todos los usuarios-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con menú de navegación -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo de la empresa" class="logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="usuarios.html">Usuarios</a></li>
+                <li><a href="maquinas.html">Máquinas</a></li>
+                <li><a href="averias.html">Averías</a></li>
+                <li><a href="partes-de-trabajo.html">Partes de Trabajo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main: Listado de usuarios -->
+    <main>
+        <div class="container">
+            <h1>Listado de Usuarios</h1>
+            <!-- Buscador por DNI -->
+            <div class="search-bar">
+                <input type="text" id="search-dni" placeholder="Buscar por DNI..." oninput="searchUserByDNI()">
+            </div>
+            <table id="users-list">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>DNI</th>
+                        <th>Rol</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Lista de usuarios (ejemplo) -->
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>12345678A</td>
+                        <td>Operario</td>
+                        <td>123-456-789</td>
+                        <td>juan@empresa.com</td>
+                        <td>
+                            <button class="btn" onclick="window.location.href='vacaciones.html?user=12345678A'">Asignar Vacaciones</button>
+                            <button class="btn" onclick="window.location.href='cambiar-contraseña.html?user=12345678A'">Cambiar Contraseña</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Gómez</td>
+                        <td>87654321B</td>
+                        <td>Jefe</td>
+                        <td>987-654-321</td>
+                        <td>ana@empresa.com</td>
+                        <td>
+                            <button class="btn" onclick="window.location.href='vacaciones.html?user=87654321B'">Asignar Vacaciones</button>
+                            <button class="btn" onclick="window.location.href='cambiar-contraseña.html?user=87654321B'">Cambiar Contraseña</button>
+                        </td>
+                    </tr>
+                    <!-- Más usuarios pueden ser añadidos aquí -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Empresa, Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Función para buscar usuarios por DNI
+        function searchUserByDNI() {
+            const input = document.getElementById("search-dni");
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById("users-list");
+            const trs = table.getElementsByTagName("tr");
+
+            for (let i = 1; i < trs.length; i++) {
+                let td = trs[i].getElementsByTagName("td")[1]; // Columna DNI
+                if (td) {
+                    let txtValue = td.textContent || td.innerText;
+                    trs[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
