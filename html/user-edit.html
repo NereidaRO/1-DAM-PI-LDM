@@ -1,1 +1,107 @@
-<!--editar usuario ya existente (vacaciones, contraseña)-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="User-Edit.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Administración</h1>
+        <nav>
+            <ul class="menu-desplegable">
+                <li class="dropdown">
+                    <button class="dropbtn">☰</button>
+                    <div class="dropdown-content">
+                        <a href="#menu-maquinas">Menú de Máquinas</a>
+                        <a href="#partes-trabajo">Partes de Trabajo</a>
+                        <a href="#general">General</a>
+                        <a href="#cerrar-sesion">Cerrar sesión</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Gestionar Trabajadores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>ID</th>
+                        <th>DNI</th>
+                        <th>Otros</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Trabajadores -->
+                    <tr>
+                        <td>Ana</td>
+                        <td>García Pérez</td>
+                        <td>001</td>
+                        <td>12345678A</td>
+                        <td>Operaria</td>
+                        <td>
+                            <button class="editar">Editar</button>
+                            <button class="borrar">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Laura</td>
+                        <td>Martínez Gómez</td>
+                        <td>002</td>
+                        <td>87654321B</td>
+                        <td>Responsable de taller</td>
+                        <td>
+                            <button class="editar">Editar</button>
+                            <button class="borrar">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carla</td>
+                        <td>López Sánchez</td>
+                        <td>003</td>
+                        <td>23456789C</td>
+                        <td>Técnica</td>
+                        <td>
+                            <button class="editar">Editar</button>
+                            <button class="borrar">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>David</td>
+                        <td>Pérez Martínez</td>
+                        <td>004</td>
+                        <td>34567890D</td>
+                        <td>Operador</td>
+                        <td>
+                            <button class="editar">Editar</button>
+                            <button class="borrar">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Sánchez Rodríguez</td>
+                        <td>005</td>
+                        <td>45678901E</td>
+                        <td>Supervisor</td>
+                        <td>
+                            <button class="editar">Editar</button>
+                            <button class="borrar">Borrar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Taller de Máquinas</p>
+    </footer>
+</body>
+</html>
