@@ -1,0 +1,160 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Evitar desplazamiento horizontal */
+}
+
+/* Barra de navegación sticky */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .menu-toggle {
+    font-size: 30px;
+    display: none;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Desplazar ligeramente los enlaces a la izquierda */
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin: 0 15px; /* Separación entre los enlaces */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Menú en dispositivos pequeños */
+nav.open {
+    display: block;
+}
+
+nav {
+    display: flex;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+    overflow-x: hidden; /* Evitar desplazamiento horizontal en el contenido */
+}
+
+/* Flecha para volver a la página anterior */
+.back-arrow {
+    position: absolute;
+    top: 125px; /* Ajustado para que no quede sobre la navbar */
+    left: 50px; /* Espaciado desde la parte izquierda */
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    z-index: 1050; /* Asegura que esté encima de la navbar */
+}
+
+.back-arrow:hover {
+    color: #ff9900; /* Color al pasar el ratón */
+}
+
+
+/* Estilo para la tarea */
+.task-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.task-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-top: 60px;
+}
+
+.worker-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.worker-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.worker-details {
+    text-align: left;
+}
+
+.task-hover h2 {
+    color: #ff9900;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #111;
+        width: 100%;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
