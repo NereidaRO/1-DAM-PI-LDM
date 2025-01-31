@@ -3,8 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de tareas para un usuario" />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
     <title>Partes de Trabajo</title>
-    <link rel="stylesheet" href="Partes_Trabajo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <!-- Barra de navegación sticky -->
@@ -17,7 +27,7 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
@@ -42,8 +52,8 @@
             <td>001</td>
             <td>Montaje de piezas</td>
             <td>
-              <button onclick="window.location.href='Partes2.html'">
-                Detalles
+              <button onclick="window.location.href='./detalleTarea.html'">
+                <i class="fa-solid fa-circle-info"></i>
               </button>
             </td>
           </tr>
@@ -51,8 +61,8 @@
             <td>003</td>
             <td>Inspección de calidad</td>
             <td>
-              <button onclick="window.location.href='Partes2.html'">
-                Detalles
+              <button onclick="window.location.href='./detalleTarea.html'">
+                <i class="fa-solid fa-circle-info"></i>
               </button>
             </td>
           </tr>
@@ -60,25 +70,21 @@
             <td>002</td>
             <td>Embalaje y etiquetado</td>
             <td>
-              <button onclick="window.location.href='Partes2.html'">
-                Detalles
+              <button onclick="window.location.href='./detalleTarea.html'">
+                <i class="fa-solid fa-circle-info"></i>
               </button>
             </td>
           </tr>
           <!-- Puedes agregar más filas aquí -->
         </tbody>
       </table>
+      <button onclick="window.location.href='./addTarea.html'">
+        Añadir tarea
+      </button>
     </main>
 
     <footer>
       <p>&copy; 2025 Empresa XYZ</p>
     </footer>
-
-    <script>
-      function toggleMenu() {
-        const menu = document.querySelector("nav ul");
-        menu.classList.toggle("open");
-      }
-    </script>
   </body>
 </html>

@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Listado de Usuarios</title>
-    <link rel="stylesheet" href="User-Edit.css" />
+    <meta name="description" content="Página para gestionar usuarios" />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
+    <title>Editar Usuarios</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <!-- Barra de navegación sticky -->
@@ -17,7 +23,7 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
@@ -42,7 +48,9 @@
             </p>
           </div>
           <div class="user-actions">
-            <button>Asignar Vacaciones</button>
+            <button onclick="window.location.href='./holiday.html'">
+              Asignar Vacaciones
+            </button>
             <div class="iconos">
               <a href="#" class="editar">✏️</a>
               <!-- Icono lápiz -->
@@ -67,7 +75,9 @@
             </p>
           </div>
           <div class="user-actions">
-            <button>Asignar Vacaciones</button>
+            <button onclick="window.location.href='./holiday.html'">
+              Asignar Vacaciones
+            </button>
             <div class="iconos">
               <a href="#" class="editar">✏️</a>
               <!-- Icono lápiz -->
@@ -92,7 +102,9 @@
             </p>
           </div>
           <div class="user-actions">
-            <button>Asignar Vacaciones</button>
+            <button onclick="window.location.href='./holiday.html'">
+              Asignar Vacaciones
+            </button>
             <div class="iconos">
               <a href="#" class="editar">✏️</a>
               <!-- Icono lápiz -->
@@ -117,7 +129,9 @@
             </p>
           </div>
           <div class="user-actions">
-            <button>Asignar Vacaciones</button>
+            <button onclick="window.location.href='./holiday.html'">
+              Asignar Vacaciones
+            </button>
             <div class="iconos">
               <a href="#" class="editar">✏️</a>
               <!-- Icono lápiz -->
@@ -138,14 +152,7 @@
 
     <!-- Footer -->
     <footer>
-      &copy; 2025 Taller Industrial. Todos los derechos reservados.
+      <p>&copy; 2025 Empresa XYZ</p>
     </footer>
-
-    <script>
-      function toggleMenu() {
-        const menu = document.getElementById("menu");
-        menu.classList.toggle("open");
-      }
-    </script>
   </body>
 </html>

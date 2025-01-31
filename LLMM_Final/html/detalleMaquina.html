@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de detalle de una máquina" />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
     <title>Detalle de Máquina</title>
     <link rel="stylesheet" href="InfoMáquinas.css" />
   </head>
@@ -17,14 +23,16 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Flecha para volver a la página anterior -->
-    <a href="Máquinas.html" class="back-arrow">&#8592;</a>
+    <a href="../html/Maquinas.html" class="back-arrow"
+      ><i class="fa-solid fa-arrow-left"></i
+    ></a>
 
     <!-- Contenido principal -->
     <main class="centered-content">
@@ -78,12 +86,5 @@
     <footer>
       <p>&copy; 2025 Empresa XYZ</p>
     </footer>
-
-    <script>
-      function toggleMenu() {
-        const menu = document.getElementById("menu");
-        menu.classList.toggle("open");
-      }
-    </script>
   </body>
 </html>

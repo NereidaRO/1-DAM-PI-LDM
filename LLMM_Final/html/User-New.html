@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registro de Usuario</title>
-    <link rel="stylesheet" href="User-New.css" />
+    <meta name="description" content="Página para crear o modificar usuarios" />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
+    <title>Registrar Usuario</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
@@ -16,21 +22,17 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
     </header>
-    <div class="background-container">
-      <iframe
-        src="https://my.spline.design/rotatinginteractiveherosection-34763d829c2a1d5684528bf84b4d6ab0/"
-        frameborder="0"
-        width="100%"
-        height="100%"
-      ></iframe>
-    </div>
 
     <main class="main-content">
+      <!-- Flecha para volver a la página anterior -->
+      <a href="../html/Maquinas.html" class="back-arrow"
+        ><i class="fa-solid fa-arrow-left"></i
+      ></a>
       <div class="form-container">
         <h1>Registro de Usuario</h1>
         <form action="/submit-form" method="POST">
@@ -90,17 +92,17 @@
               type="text"
               id="rol"
               name="rol"
-              placeholder="Ej. Administrador, Usuario"
+              placeholder="Ej. Administrador, Operario, Mecánico"
               required
             />
           </div>
           <div class="form-group">
-            <label for="correo">Correo Electrónico de la Generalitat</label>
+            <label for="correo">Correo Electrónico</label>
             <input
               type="email"
               id="correo"
               name="correo"
-              placeholder="Ej. usuario@gva.es"
+              placeholder="Ej. usuario@gmail.com"
               required
             />
           </div>
@@ -123,7 +125,7 @@
               placeholder="Ej. 600654321"
             />
           </div>
-          <button type="submit">Registrarse</button>
+          <button type="submit">Registrar</button>
         </form>
       </div>
     </main>

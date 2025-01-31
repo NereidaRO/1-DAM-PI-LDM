@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalles de la Tarea</title>
+    <meta
+      name="description"
+      content="Página de detalle de una tarea concreta"
+    />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
+    <title>Detalles de Tarea</title>
     <link rel="stylesheet" href="Partes2.css" />
   </head>
   <body>
@@ -17,13 +26,15 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
     </header>
     <!-- Flecha para volver a la página anterior -->
-    <a href="Partes_Trabajo.html" class="back-arrow">&#8592;</a>
+    <a href="./Partes_Trabajo.html" class="back-arrow"
+      ><i class="fa-solid fa-arrow-left"></i
+    ></a>
     <!-- Descripción de la tarea -->
     <main>
       <div class="task-container">
@@ -31,7 +42,7 @@
           <!-- Información del trabajador -->
           <div class="worker-info">
             <img
-              src="Captura.PNG"
+              src="../images/Captura.PNG"
               alt="Foto del trabajador"
               class="worker-photo"
             />
@@ -62,13 +73,5 @@
     <footer>
       <p>&copy; 2025 Empresa XYZ</p>
     </footer>
-
-    <script>
-      // Activar el menú desplegable
-      document.getElementById("menu-btn").onclick = function () {
-        var menu = document.getElementById("menu");
-        menu.classList.toggle("show");
-      };
-    </script>
   </body>
 </html>

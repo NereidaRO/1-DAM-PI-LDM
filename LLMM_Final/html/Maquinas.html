@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Listado de máquinas del taller" />
+    <meta
+      name="keywords"
+      content="taller, máquina, machine, gestión, management"
+    />
+    <meta name="author" content="Nereida, Ayman, Diego" />
     <title>Listado de Máquinas</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <link
@@ -21,7 +27,7 @@
         <ul>
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
-          <li><a href="../html/UserList.html">Usuarios</a></li>
+          <li><a href="../html/UserMain.html">Usuarios</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
@@ -35,9 +41,9 @@
         <div class="machine-card">
           <img src="../images/machine.png" alt="Máquina 1" />
           <h3>Máquina 1</h3>
-          <p>ID: 45187</p>
-          <p>Estado: Activa</p>
-          <p>Descripción breve: Máquina para corte industrial.</p>
+          <p><i class="fa-solid fa-fingerprint"></i> 45187</p>
+          <p><i class="fa-solid fa-stethoscope"></i> Activa</p>
+          <p>Máquina para corte industrial.</p>
           <button onclick="window.location.href='../html/detalleMaquina.html'">
             Más información
           </button>
@@ -46,9 +52,9 @@
         <div class="machine-card">
           <img src="../images/machine.png" alt="Máquina 2" />
           <h3>Máquina 2</h3>
-          <p>ID: 72156</p>
-          <p>Estado: Inactiva</p>
-          <p>Descripción breve: Máquina de soldadura industrial.</p>
+          <p><i class="fa-solid fa-fingerprint"></i> 72156</p>
+          <p><i class="fa-solid fa-stethoscope"></i> Inactiva</p>
+          <p>Máquina de soldadura industrial.</p>
           <button onclick="window.location.href='../html/detalleMaquina.html'">
             Más información
           </button>
@@ -56,14 +62,17 @@
         <div class="machine-card">
           <img src="../images/machine.png" alt="Máquina 3" />
           <h3>Máquina 3</h3>
-          <p>ID: 01342</p>
-          <p>Estado: Activa</p>
-          <p>Descripción breve: Máquina para corte de piezas metálicas.</p>
+          <p><i class="fa-solid fa-fingerprint"></i> 01342</p>
+          <p><i class="fa-solid fa-stethoscope"></i> Activa</p>
+          <p>Máquina para corte de piezas metálicas.</p>
           <button onclick="window.location.href='../html/detalleMaquina.html'">
             Más información
           </button>
         </div>
       </div>
+      <button onclick="window.location.href='./addMachine.html'">
+        Añadir máquina
+      </button>
     </main>
     <!-- Footer -->
     <footer>
