@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partes de Trabajo - Fábrica</title>
+    <link rel="stylesheet" href="Partes_Trabajo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Partes de Trabajo</h1>
+            <p>Vista de los trabajos asignados a los empleados</p>
+        </header>
+
+        <!-- Filtro desplegable -->
+        <div class="filter-container">
+            <button class="filter-btn">Filtrar</button>
+            <div class="filter-options">
+                <a href="#" class="filter-option" data-filter="ascendente">Número Ascendente</a>
+                <a href="#" class="filter-option" data-filter="descendente">Número Descendente</a>
+                <a href="#" class="filter-option" data-filter="tarea">Tipo de Tarea</a>
+            </div>
+        </div>
+
+        <!-- Tabla de trabajo -->
+        <table class="work-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Trabajo</th>
+                    <th>Más</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="Partes2.html">001</a></td>
+                    <td>Montaje de piezas</td>
+                    <td><button>Detalles</button></td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Inspección de calidad</td>
+                    <td><button>Detalles</button></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Embalaje y etiquetado</td>
+                    <td><button>Detalles</button></td>
+                </tr>
+                <!-- Puedes agregar más filas aquí -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

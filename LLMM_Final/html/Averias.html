@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Averías</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-company">
+            <img src="../images/logo.png" alt="Logo de la empresa">
+        </div>
+        <div class="mb-menu-toggle">
+            &#9776;
+        </div>
+        <nav class="main-menu-header">
+            <ul>
+                <li><a href="../html/Maquinas.html">Máquinas</a></li>
+                <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
+                <li><a href="../html/UserList.html">Usuarios</a></li>
+                <li><a href="../html/login.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="content">
+            <h1>Listado de Averías</h1>
+            <div class="icon">⚠️</div>
+        </div>
+        
+
+            <div class="breakdown-list">
+                <!-- Tabla de averías -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Número de Serie</th>
+                            <th>Fecha Reporte</th>
+                            <th>Descripción</th>
+                            <th>Duración (hrs)</th>
+                            <th>Tipo</th>
+                            <th>Operario</th>
+                            <th>Mecánico</th>
+                            <th>Coste (€)</th>
+                            <th>Fecha Resolución</th>
+                            <th>Estado</th>
+                            <th>Comentarios</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Fila de ejemplo -->
+                        <tr>
+                            <td>45187</td>
+                            <td>SN4578</td>
+                            <td>2025-01-02</td>
+                            <td>Fallo del encendido</td>
+                            <td>48</td>
+                            <td>Eléctrico</td>
+                            <td>Ana Vázquez</td>
+                            <td>Carlos López</td>
+                            <td>125</td>
+                            <td>2025-01-04</td>
+                            <td>Resuelto</td>
+                            <td>Reemplazo de pieza quemada.</td>
+                        </tr>
+                        <tr>
+                            <td>72156</td>
+                            <td>SN12345</td>
+                            <td>2025-01-15</td>
+                            <td>Fallo en motor</td>
+                            <td>6</td>
+                            <td>Eléctrico</td>
+                            <td>Juan Pérez</td>
+                            <td>Carlos López</td>
+                            <td>500</td>
+                            <td>2025-01-16</td>
+                            <td>Resuelto</td>
+                            <td>Se reemplazó el motor principal.</td>
+                        </tr>
+                        <tr>
+                            <td>01342</td>
+                            <td>SN2815</td>
+                            <td>2025-01-10</td>
+                            <td>Pieza suelta</td>
+                            <td>1</td>
+                            <td>Mecánico</td>
+                            <td>Isabel Urtia</td>
+                            <td>Marina Campos</td>
+                            <td>0</td>
+                            <td>2025-01-10</td>
+                            <td>Resuelto</td>
+                            <td>Ajuste de la pieza</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button onclick="editBreakdowns()">Mecánico</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Empresa XYZ</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('open');
+        }
+
+        function editBreakdowns() {
+            // Acción para editar los datos de averías
+            alert('Función para modificar los datos de las averías en construcción.');
+        }
+    </script>
+</body>
+</html>

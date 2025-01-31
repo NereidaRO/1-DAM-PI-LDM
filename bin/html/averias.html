@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Averías</title>
+    <link rel="stylesheet" href="styleaveria.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la empresa">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Menú</a></li>
+                <li><a href="Maquinas.html">Máquinas</a></li>
+                <li><a href="Averias.html">Averías</a></li>
+                <li><a href="#">Usuarios</a></li>
+                <li><a href="#">Partes de trabajo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Listado de Averías</h1>
+        <div class="breakdown-list">
+            <!-- Tabla de averías -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Número de Serie</th>
+                        <th>Fecha Reporte</th>
+                        <th>Descripción</th>
+                        <th>Duración (hrs)</th>
+                        <th>Tipo</th>
+                        <th>Operario</th>
+                        <th>Mecánico</th>
+                        <th>Coste (€)</th>
+                        <th>Fecha Resolución</th>
+                        <th>Estado</th>
+                        <th>Comentarios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Fila de ejemplo -->
+                    <tr>
+                        <td>001</td>
+                        <td>SN12345</td>
+                        <td>2025-01-15</td>
+                        <td>Fallo en motor</td>
+                        <td>6</td>
+                        <td>Eléctrico</td>
+                        <td>Juan Pérez</td>
+                        <td>Carlos López</td>
+                        <td>500</td>
+                        <td>2025-01-16</td>
+                        <td>Resuelto</td>
+                        <td>Se reemplazó el motor principal.</td>
+                    </tr>
+                    <!-- Repetir este bloque para más filas -->
+                </tbody>
+            </table>
+        </div>
+
+        <button onclick="editBreakdowns()">Mecánico</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Empresa XYZ</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('open');
+        }
+
+        function editBreakdowns() {
+            // Acción para editar los datos de averías
+            alert('Función para modificar los datos de las averías en construcción.');
+        }
+    </script>
+</body>
+</html>
