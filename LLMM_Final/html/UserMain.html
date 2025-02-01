@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <script src="../css/script.js"></script>
   </head>
-  <body>
+  <body id="main-page-user">
     <header>
       <div class="logo-company">
         <img src="../images/logo.png" alt="Logo de la empresa" />
@@ -36,7 +36,9 @@
       <div class="user-info">
         <img src="../images/Captura.PNG" alt="Foto de Usuario" />
         <div>
-          <h2>Usuario</h2>
+          <h1>Pepe Martínez</h1>
+          <p>Operario</p>
+          <p>NIF: 12345678F</p>
         </div>
       </div>
       <div class="calendar">
@@ -149,16 +151,16 @@
               <!-- Agregar más filas para otras horas -->
             </tbody>
           </table>
-          <div class="calendar-buttons">
-            <button onclick="window.location.href='./UserList.html'">
+          <div class="button-wrapper calendar-button">
+            <button onclick="window.location.href='./UserMain.html'">
               <i class="fa-solid fa-arrow-left"></i> Semana Anterior
             </button>
-            <button onclick="window.location.href='./UserList.html'">
+            <button onclick="window.location.href='./UserMain.html'">
               Siguiente Semana <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
         </div>
-        <div class="actions">
+        <div class="button-wrapper calendar-button">
           <button onclick="window.location.href='./User-Edit.html'">
             <i class="fa-solid fa-pencil"></i>
           </button>

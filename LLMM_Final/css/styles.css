@@ -157,7 +157,7 @@ header .logo-company img {
 }
 
 /*Fichas e imágenes*/
-.machine-list {
+.machine-list, .user-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centra las tarjetas de la máquina */
@@ -165,13 +165,13 @@ header .logo-company img {
     margin-bottom: 20px;
 }
 
-.machine-card {
+.machine-card, .user-card {
     background-color: #333;
     padding: 20px;
     border-radius: 8px;
     width: 250px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
     transition: background 0.3s ease;
     cursor: pointer;
 }
@@ -185,6 +185,19 @@ header .logo-company img {
 .machine-card img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
+}
+
+/*Página principal usuario*/
+#main-page-user .user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#main-page-user img{
     border-radius: 8px;
 }
 
@@ -257,12 +270,17 @@ table{
     overflow: scroll;
 }
 th, td{
-    padding: 12px 15px;
+    padding: 1.5%;
     border: 1px solid #444;
     text-align: left;
     background-color: #2c2c2c;
     font-size: 1rem;
     color: white;
+}
+@media all and (max-width: 465px){
+    th, td{
+        font-size: 0.5rem;
+    }
 }
 
 table th {
@@ -280,6 +298,9 @@ table tbody tr:nth-child(odd) {
 
 table tbody tr:hover {
     background-color: #444;
+}
+div.calendar, div.calender>div{
+    width: 100%;
 }
 
 /*Enlaces y botones*/
@@ -312,6 +333,7 @@ a, .link {
 a:hover, .link:hover {
     text-decoration: underline;
 }
+
 .button-wrapper{
     width: 100%;
     display: flex;
@@ -320,6 +342,7 @@ a:hover, .link:hover {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .button-wrapper button{
     width: auto;
     max-width: 250px;
@@ -338,6 +361,29 @@ a:hover, .link:hover {
 .back-arrow:hover{
     text-decoration: none;
     transform: scaleY(1.5);
+}
+
+.calendar-button{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-actions .iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-actions .iconos a{
+    padding: 5px;
+}
+
+.user-actions .iconos a:hover{
+    text-decoration: none;
+    background-color: #474646;
 }
 
 /*Arreglo main-footer*/
