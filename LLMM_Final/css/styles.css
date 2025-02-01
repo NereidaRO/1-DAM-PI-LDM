@@ -8,10 +8,12 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+#body-login-page{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 #video-fondo {
@@ -35,8 +37,63 @@ body {
     justify-content: center;
     z-index: 1;
 }
+/*Menú home*/
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+}
+
+.menu-item {
+    background-color: #1a1a1a;
+    border: 2px solid #ff9900;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 10px 0;
+    width: 24%;
+}
+.menu-item .label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 153, 0, 0.3);
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 /*Header*/
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ff9900;
+}
 
 /*Fichas e imágenes*/
 
@@ -105,3 +162,12 @@ a:hover, .link:hover {
 }
 
 /*Footer*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: auto;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
