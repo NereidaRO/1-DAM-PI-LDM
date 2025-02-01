@@ -53,6 +53,10 @@ main h1 {
     margin-bottom: 70px;
     font-size: 2.5rem;
 }
+.task-hover{
+    width: 80%;
+    margin: 0 auto;
+}
 /*Menú home*/
 .menu-container {
     max-width: 800px;
@@ -138,6 +142,10 @@ header .logo-company img {
     background-color: #333;
 }
 
+.mb-menu-toggle:hover{
+    cursor: pointer;
+}
+
 @media all and (min-width: 780px){
     .mb-menu-toggle{
         display: none;
@@ -188,8 +196,8 @@ header .logo-company img {
     border-radius: 8px;
 }
 
-/*Página principal usuario*/
-#main-page-user .user-info{
+/*Minificha trabajador*/
+#main-page-user .user-info, .task-container .worker-info{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +205,7 @@ header .logo-company img {
     margin-top: 15px;
 }
 
-#main-page-user img{
+#main-page-user img, .task-container .worker-info img{
     border-radius: 8px;
 }
 
@@ -267,7 +275,7 @@ table{
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Sombra */
     border-radius: 8px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 th, td{
     padding: 1.5%;
@@ -302,6 +310,19 @@ table tbody tr:hover {
 div.calendar, div.calender>div{
     width: 100%;
 }
+#table-all-faults td,
+#table-all-faults th
+{
+    font-size: 0.9rem;
+    padding: 0.5%;
+    text-align: center;
+}
+@media all and (max-width: 760px){
+    .breakdown-list{
+        overflow-x: scroll;
+    }
+}
+
 
 /*Enlaces y botones*/
 button {
@@ -360,6 +381,7 @@ a:hover, .link:hover {
 
 .back-arrow:hover{
     text-decoration: none;
+    color: #ff9900;
     transform: scaleY(1.5);
 }
 

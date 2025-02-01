@@ -29,16 +29,14 @@
           <li><a href="../html/Maquinas.html">Máquinas</a></li>
           <li><a href="../html/Partes_Trabajo.html">Partes de trabajo</a></li>
           <li><a href="../html/UserMain.html">Usuarios</a></li>
+          <li><a href="../html/Averias.html">Averías</a></li>
           <li><a href="../html/login.html">Cerrar sesión</a></li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <header class="main-header">
-        <h1>Partes de Trabajo</h1>
-        <div class="icon">📋</div>
-      </header>
+      <h1>Partes de Trabajo <span class="icon">📋</span></h1>
+
       <!-- Tabla de trabajo -->
       <table class="work-table">
         <thead>
@@ -79,11 +77,12 @@
           <!-- Puedes agregar más filas aquí -->
         </tbody>
       </table>
-      <button onclick="window.location.href='./addTarea.html'">
-        Añadir tarea
-      </button>
+      <div class="button-wrapper">
+        <button onclick="window.location.href='./addTarea.html'">
+          Añadir tarea
+        </button>
+      </div>
     </main>
-
     <footer>
       <p>&copy; 2025 Empresa XYZ</p>
     </footer>

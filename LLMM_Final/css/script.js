@@ -1,5 +1,6 @@
-const x = document.getElementsByClassName(".mb-menu-toggle");
-function toggleFunction() {
-  x.classList.toggle("hide-me");
-}
-x.addEventListener("click", toggleFunction);
+const x = document.querySelector(".mb-menu-toggle");
+const y = document.querySelector(".main-menu-header");
+
+x.addEventListener("click", () => {
+  y.classList.toggle("hide-me");
+});
