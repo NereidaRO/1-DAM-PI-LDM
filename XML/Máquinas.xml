@@ -1,0 +1,25 @@
+<?xml version:"1.0" encoding="UTF-8"?>
+<maquinas>
+    <salida>
+
+        <maquina>
+            <id>45187</id>
+            <estado>Activa</estado>
+            <descripcion>Máquina para corte industrial</descripcion>
+        </maquina>
+
+        <maquina2>
+            <id>72156</id>
+            <estado>Inactiva</estado>
+            <descripcion>Máquina de soldadura industrial</descripcion>
+        </maquina2>
+
+        <maquina3>
+            <id>01342</id>
+            <estado>Activa</estado>
+            <descripcion>Máquina para corte de piezas metálicas</descripcion>
+        </maquina3>
+
+    <salida>
+
+</maquinas>
