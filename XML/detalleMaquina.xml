@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<detalleMaquinas>
+    <detalleMaq>
+        <maquina>Máquina 1</maquina>
+        <id>45187</id>
+        <tipo>Cortadora industrial</tipo>
+        <estado>Activa</estado>
+        <descripcion>Máquina utilizada para el corte de materiales metálicos. Es esencial para la línea de producción.</descripcion>
+        <ubicacion>Planta A</ubicacion>
+        <operarioAsignado>Ana Vázquez</operarioAsignado>
+        <horasUso>2500 horas</horasUso>
+        <proximoMantenimiento>2025-06-15</proximoMantenimiento>
+    </detalleMaq>
+</detalleMaquinas>

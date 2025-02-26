@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuevaMaquina>
+    <nombre></nombre>
+    <nombre></nombre>
+    <descripcion></descripcion>
+    <numeroSerie></numeroSerie>
+    <ubicacion></ubicacion>
+    <tipo></tipo>
+    <operarioResponsable></operarioResponsable>
+    <horasUso></horasUso>
+    <proximoMantenimiento></proximoMantenimiento>
+</nuevaMaquina>
