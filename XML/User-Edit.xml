@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<User-Edit>
+    <!--Aquí hay una lista de fichas
+    de usuarios, son datos de entrada desde la BDD-->
+    <entrada>
+        <userCard>
+            <nif></nif>
+            <nombre></nombre>
+            <rol></rol>
+            <telefono></telefono>
+            <email></email>
+        </userCard>
+        <userCard>
+            <nif></nif>
+            <nombre></nombre>
+            <rol></rol>
+            <telefono></telefono>
+            <email></email>
+        </userCard>
+        <userCard>
+            <nif></nif>
+            <nombre></nombre>
+            <rol></rol>
+            <telefono></telefono>
+            <email></email>
+        </userCard>
+    </entrada>
+</User-Edit>

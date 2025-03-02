@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<User-New>
+    <!--Se trata de un formulario de
+    envío de datos a BDD-->
+    <salida>
+        <nombre></nombre>
+        <dob></dob>
+        <edad></edad>
+        <direccion></direccion>
+        <nif></nif>
+        <rol></rol>
+        <email></email>
+        <telefono></telefono>
+        <telefono></telefono>
+    </salida>
+</User-New>

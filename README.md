@@ -1,6 +1,6 @@
 # 1-DAM-PI-LDM
 
-Entrega del Proyecto Intermodular para la asignatura de Lenguaje de Marcas; el objetivo de esta práctica es crear una página web (no funcional) con la ayuda de promps de IA.
+Entrega del Proyecto Intermodular para la asignatura de Lenguaje de Marcas; el objetivo de esta práctica es crear una página web (no funcional) con la ayuda de promps de IA. En la segunda parte, debemos crear los esquemas XML que servirán para transportar datos entre la página web y la base de datos.
 
 1. La aplicación
 
@@ -11,6 +11,7 @@ Se trata de la versión para los usuarios tipo administrador (jefes de taller o 
 - HTML5
 - CSS3
 - ChatGPT
+- XML
 
 3. Autores
 

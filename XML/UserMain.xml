@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserMain>
+    <!--Es el horario del usuario, su
+    página personal, son datos de entrada desde la BDD-->
+    <entrada>
+        <ficha>
+            <nombre></nombre>
+            <rol></rol>
+            <nif></nif>
+        </ficha>
+        <calendario>
+            <!--tipo:
+            laboral, vacaciones, asuntos propios-->
+            <dia tipo="" semanal="lunes">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="martes">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="miercoles">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="jueves">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="viernes">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="sabado">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+            <dia tipo="" semanal="domingo">
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+                <hora></hora>
+            </dia>
+        </calendario>
+    </entrada>
+</UserMain>
