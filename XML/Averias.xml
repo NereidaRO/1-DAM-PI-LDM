@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listadoAveria>
+    <!--Eran los datos de entrada y
+    salida; las etiquetas XML son "bolsillos" para guardar lo que mandemos/recibamos de la BDD-->
     <averia>
         <id>45187</id>
         <numeroSerie>SN4578</numeroSerie>

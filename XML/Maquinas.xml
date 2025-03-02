@@ -1,4 +1,4 @@
-<?xml version:"1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <maquinas>
     <salida>
 
@@ -20,6 +20,6 @@
             <descripcion>Máquina para corte de piezas metálicas</descripcion>
         </maquina3>
 
-    <salida>
+    </salida>
 
 </maquinas>

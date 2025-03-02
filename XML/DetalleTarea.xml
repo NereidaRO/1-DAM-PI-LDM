@@ -1,6 +1,7 @@
-<?xml version:"1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <detalleTarea>
-    
+    <!--Eran los datos de entrada y
+    salida; las etiquetas XML son "bolsillos" para guardar lo que mandemos/recibamos de la BDD-->
     <tarea>
 
         <informacionTrabajador>
@@ -10,11 +11,14 @@
         </informacionTrabajador>
 
         <descripcion>
-            El trabajador debe realizar el montaje de varias piezas en una línea de producción. 
-            Esta tarea consiste en ensamblar componentes para formar un producto final que será posteriormente empaquetado y enviado. 
-            El proceso de montaje implica la manipulación de diversas partes que deben ser conectadas, ajustadas y aseguradas correctamente para garantizar que el producto funcione de acuerdo con las especificaciones y estándares de calidad de la empresa.
+            El trabajador debe realizar el montaje de varias piezas en una línea de producción.
+            Esta tarea consiste en ensamblar componentes para formar un producto final que será
+            posteriormente empaquetado y enviado.
+            El proceso de montaje implica la manipulación de diversas partes que deben ser
+            conectadas, ajustadas y aseguradas correctamente para garantizar que el producto
+            funcione de acuerdo con las especificaciones y estándares de calidad de la empresa.
         </descripcion>
-        
+
     </tarea>
 
 </detalleTarea>
