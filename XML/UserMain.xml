@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UserMain>
     <!--Es el horario del usuario, su
-    página personal, son datos de entrada desde la BDD-->
-    <entrada>
+    página personal, son datos de salida desde la BDD-->
+    <salida>
+        <!--Entrada:
+        mando a la BDD; salida: me lo saca la BDD a mi página-->
         <ficha>
             <nombre></nombre>
             <rol></rol>
@@ -10,7 +12,7 @@
         </ficha>
         <calendario>
             <!--tipo:
-            laboral, vacaciones, asuntos propios-->
+            laboral, vacaciones, asuntos propios (especificar en DTD)-->
             <dia tipo="" semanal="lunes">
                 <hora></hora>
                 <hora></hora>
@@ -89,5 +91,5 @@
                 <hora></hora>
             </dia>
         </calendario>
-    </entrada>
+    </salida>
 </UserMain>

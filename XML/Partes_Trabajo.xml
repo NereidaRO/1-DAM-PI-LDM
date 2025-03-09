@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Partes_Trabajo>
     <!--Son datos de la lista de
-    tareas, son solo datos de entrada desde la BDD-->
-    <entrada>
+    tareas, son solo datos de salida desde la BDD-->
+    <salida>
         <tarea longitud="resumen">
             <idTarea></idTarea>
             <tituloTarea></tituloTarea>
@@ -15,5 +15,5 @@
             <idTarea></idTarea>
             <tituloTarea></tituloTarea>
         </tarea>
-    </entrada>
+    </salida>
 </Partes_Trabajo>

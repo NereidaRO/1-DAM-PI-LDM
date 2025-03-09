@@ -2,7 +2,7 @@
 <User-New>
     <!--Se trata de un formulario de
     envío de datos a BDD-->
-    <salida>
+    <entrada>
         <nombre></nombre>
         <dob></dob>
         <edad></edad>
@@ -12,5 +12,5 @@
         <email></email>
         <telefono></telefono>
         <telefono></telefono>
-    </salida>
+    </entrada>
 </User-New>
