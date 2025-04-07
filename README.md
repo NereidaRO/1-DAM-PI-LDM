@@ -12,6 +12,7 @@ Se trata de la versión para los usuarios tipo administrador (jefes de taller o 
 - CSS3
 - ChatGPT
 - XML
+- XSD
 
 3. Autores
 
