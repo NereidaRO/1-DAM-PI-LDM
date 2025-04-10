@@ -1,94 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<UserMain>
-    <!--Es el horario del usuario, su
+<UserMain xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XSD/UserMain.xsd">
+    <!--Es
+    el horario del usuario, su
     página personal, son datos de salida desde la BDD-->
     <salida>
         <!--Entrada:
         mando a la BDD; salida: me lo saca la BDD a mi página-->
         <ficha>
-            <nombre></nombre>
-            <rol></rol>
-            <nif></nif>
+            <nombre>Maria del Carmen Salmorejo Gazpacho</nombre>
+            <rol>admin</rol>
+            <nif>12345678Z</nif>
         </ficha>
         <calendario>
             <!--tipo:
-            laboral, vacaciones, asuntos propios (especificar en DTD)-->
+            laboral, vacaciones, asuntos propios (especificar en XSD)-->
             <dia tipo="" semanal="lunes">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="martes">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="miercoles">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="jueves">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="viernes">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="sabado">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
             <dia tipo="" semanal="domingo">
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
-                <hora></hora>
+                <hora>08:00</hora>
+                <hora>09:00</hora>
+                <hora>10:00</hora>
+                <hora>11:00</hora>
+                <hora>12:00</hora>
+                <hora>13:00</hora>
+                <hora>14:00</hora>
+                <hora>15:00</hora>
+                <hora>16:00</hora>
             </dia>
         </calendario>
     </salida>

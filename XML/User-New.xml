@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<User-New>
-    <!--Se trata de un formulario de
+<User-New xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XSD/User-New.xsd"> <!--Se
+    trata de un formulario de
     envío de datos a BDD-->
     <entrada>
-        <nombre></nombre>
-        <dob></dob>
-        <edad></edad>
-        <direccion></direccion>
-        <nif></nif>
-        <rol></rol>
-        <email></email>
-        <telefono></telefono>
-        <telefono></telefono>
+        <nombre>Ejemplo</nombre>
+        <dob>2000-01-01</dob>
+        <edad>25</edad>
+        <direccion>Calle Ejemplo, 3</direccion>
+        <nif>12345678Z</nif>
+        <rol>admin</rol>
+        <email>ejemplo@taller.com</email>
+        <telefono>666666666</telefono>
+        <telefono>999999999</telefono>
     </entrada>
 </User-New>

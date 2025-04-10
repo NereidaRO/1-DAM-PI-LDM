@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<User-Edit>
-    <!--Aquí hay una lista de fichas
+<User-Edit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XSD/User-Edit.xsd">
+    <!--Aquí
+    hay una lista de fichas
     de usuarios, son datos de salida desde la BDD-->
     <salida>
         <userCard>
-            <nif></nif>
-            <nombre></nombre>
-            <rol></rol>
-            <telefono></telefono>
-            <email></email>
+            <nif>12345678Z</nif>
+            <nombre>Marta Hidalgo</nombre>
+            <rol>operario</rol>
+            <telefono>666666666</telefono>
+            <email>marta@taller.es</email>
         </userCard>
         <userCard>
-            <nif></nif>
-            <nombre></nombre>
-            <rol></rol>
-            <telefono></telefono>
-            <email></email>
+            <nif>12345678Z</nif>
+            <nombre>Carla Blasco</nombre>
+            <rol>admin</rol>
+            <telefono>999999999</telefono>
+            <email>carla@taller.es</email>
         </userCard>
         <userCard>
-            <nif></nif>
-            <nombre></nombre>
-            <rol></rol>
-            <telefono></telefono>
-            <email></email>
+            <nif>12345678Z</nif>
+            <nombre>Fernando Blasco</nombre>
+            <rol>mecanico</rol>
+            <telefono>777777777</telefono>
+            <email>fer@taller.com</email>
         </userCard>
     </salida>
 </User-Edit>
