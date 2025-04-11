@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="detalleTarea">
+        <xs:complexType>
+            <xs:sequence>
+                    <xs:element name="tarea">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="informacionTrabajador">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="imagen"/>
+                                            <xs:element name="nombre" type="xs:string"/>
+                                            <xs:element name="NIF" type="xs:string"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="descripcion" type="xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

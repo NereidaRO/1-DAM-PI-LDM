@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<detalleMaquinas xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="detalleMaquina.xsd">
+    <!--Eran los datos de entrada y
+    salida; las etiquetas XML son "bolsillos" para guardar lo que mandemos/recibamos de la BDD-->
+    <detalleMaq>
+        <maquina>Máquina 1</maquina>
+        <id>45187</id>
+        <tipo>Cortadora industrial</tipo>
+        <estado>Activa</estado>
+        <descripcion>Máquina utilizada para el corte de materiales metálicos. Es esencial para la
+            línea de producción.</descripcion>
+        <ubicacion>Planta A</ubicacion>
+        <operarioAsignado>Ana Vázquez</operarioAsignado>
+        <horasUso>2500 horas</horasUso>
+        <proximoMantenimiento>2025-06-15</proximoMantenimiento>
+    </detalleMaq>
+</detalleMaquinas>

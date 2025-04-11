@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listadoAveria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="averia" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:int"/>
+                            <xs:element name="numeroSerie" type="xs:ID"/>
+                            <xs:element name="fechaReporte" type="xs:date"/>
+                            <xs:element name="descripcion" type="xs:string"/>
+                            <xs:element name="duracion" type="xs:int"/>
+                            <xs:element name="tipo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Eléctrico"/>
+                                        <xs:enumeration value="Mecánico"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="operario" type="xs:string"/>
+                            <xs:element name="mecanico" type="xs:string"/>
+                            <xs:element name="coste" type="xs:int"/>
+                            <xs:element name="fechaResolucion" type="xs:date"/>
+                            <xs:element name="estado">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Resuelto"/>
+                                        <xs:enumeration value="Detectada"/>
+                                        <xs:enumeration value="En reparacion"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="comentarios" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence> 
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

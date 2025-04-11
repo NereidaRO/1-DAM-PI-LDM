@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listadoAveria xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Averias.xsd">
+    <!--Eran los datos de entrada y
+    salida; las etiquetas XML son "bolsillos" para guardar lo que mandemos/recibamos de la BDD-->
+    <averia>
+        <id>45187</id>
+        <numeroSerie>SN4578</numeroSerie>
+        <fechaReporte>2025-01-02</fechaReporte>
+        <descripcion>Fallo del encendido</descripcion>
+        <duracion>48</duracion>
+        <tipo>Eléctrico</tipo>
+        <operario>Ana vázquez</operario>
+        <mecanico>Carlos López</mecanico>
+        <coste>125</coste>
+        <fechaResolucion>2025-01-04</fechaResolucion>
+        <estado>Resuelto</estado>
+        <comentarios>Reemplazo de pieza quemada.</comentarios>
+    </averia>
+    <averia>
+        <id>72156</id>
+        <numeroSerie>SN12345</numeroSerie>
+        <fechaReporte>2025-01-15</fechaReporte>
+        <descripcion>Fallo en motor</descripcion>
+        <duracion>6</duracion>
+        <tipo>Eléctrico</tipo>
+        <operario>Juan Pérez</operario>
+        <mecanico>Carlos López</mecanico>
+        <coste>500</coste>
+        <fechaResolucion>2025-01-16</fechaResolucion>
+        <estado>Resuelto</estado>
+        <comentarios>Se reemplazó el motor principal.</comentarios>
+    </averia>
+    <averia>
+        <id>01342</id>
+        <numeroSerie>SN2815</numeroSerie>
+        <fechaReporte>2025-01-10</fechaReporte>
+        <descripcion>Pieza suelta</descripcion>
+        <duracion>1</duracion>
+        <tipo>Mecánico</tipo>
+        <operario>Isabel Urtia</operario>
+        <mecanico>Marina Campos</mecanico>
+        <coste>0</coste>
+        <fechaResolucion>2025-01-10</fechaResolucion>
+        <estado>Resuelto</estado>
+        <comentarios>Ajuste de la pieza</comentarios>
+    </averia>
+</listadoAveria>
